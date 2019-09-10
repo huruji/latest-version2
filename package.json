@@ -1,12 +1,12 @@
 {
-	"name": "latest-version",
-	"version": "5.1.0",
+	"name": "latest-version2",
+	"version": "1.0.4",
 	"description": "Get the latest version of an npm package",
 	"license": "MIT",
 	"repository": "sindresorhus/latest-version",
 	"author": {
-		"name": "Sindre Sorhus",
-		"email": "sindresorhus@gmail.com",
+		"name": "huruji",
+		"email": "huruji3@foxmail.com",
 		"url": "sindresorhus.com"
 	},
 	"engines": {
@@ -17,7 +17,9 @@
 	},
 	"files": [
 		"index.js",
-		"index.d.ts"
+		"index.d.ts",
+		"pjson.js",
+		"registry-url2.js"
 	],
 	"keywords": [
 		"latest",
@@ -30,11 +32,13 @@
 		"module"
 	],
 	"dependencies": {
-		"package-json": "^6.3.0"
+		"got": "^9.6.0",
+		"package-json": "^6.3.0",
+		"rc": "^1.2.8"
 	},
 	"devDependencies": {
 		"ava": "^1.4.1",
-		"semver": "^6.0.0",
+		"semver": "^6.3.0",
 		"semver-regex": "^2.0.0",
 		"tsd": "^0.7.2",
 		"xo": "^0.24.0"

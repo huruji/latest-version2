@@ -1,5 +1,5 @@
 'use strict';
-const packageJson = require('package-json');
+const packageJson = require('./pjson');
 
 const lastestVersion = async (packageName, options) => {
 	const {version} = await packageJson(packageName.toLowerCase(), options);
